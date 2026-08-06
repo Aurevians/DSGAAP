@@ -20,14 +20,57 @@ This guide includes solutions for common real-world issues:
 - [What This Setup Provides](#what-this-setup-provides)
 - [Environment Architecture](#environment-architecture)
 - [Prerequisites](#prerequisites)
-- [Installation Guide](#installation-guide)
-  - [Step 1 - Install Anaconda](#step-1---install-anaconda)
-  - [Step 2 - Initialize Conda](#step-2---initialize-conda)
-  - [Step 3 - Disable Conda Base Auto Activation](#step-3---disable-conda-base-auto-activation)
-  - [Step 4 - Configure pyenv Python](#step-4---configure-pyenv-python)
-  - [Step 5 - Create Python 3.13.11 Conda Environment](#step-5---create-python-31311-conda-environment)
-  - [Step 6 - Fix Conda Permissions](#step-6---fix-conda-permissions)
-- [Continue Setup](#continue-setup)
+
+# Installation Guide
+
+- [Step 1 - Install Anaconda](#step-1---install-anaconda)
+- [Step 2 - Initialize Conda](#step-2---initialize-conda)
+- [Step 3 - Disable Conda Base Auto Activation](#step-3---disable-conda-base-auto-activation)
+- [Step 4 - Configure pyenv Python](#step-4---configure-pyenv-python)
+- [Why pyenv is Used](#why-pyenv-is-used)
+- [Step 5 - Create Python 3.13.11 Conda Environment](#step-5---create-python-31311-conda-environment)
+- [Step 6 - Fix Conda Permissions](#step-6---fix-conda-permissions)
+
+# Jupyter Setup
+
+- [Step 7 - Install JupyterLab](#step-7---install-jupyterlab)
+- [Step 8 - Register the Jupyter Kernel](#step-8---register-the-jupyter-kernel)
+- [Step 9 - Install Classic Jupyter Notebook](#step-9---install-classic-jupyter-notebook)
+
+# Using Jupyter
+
+- [Launch JupyterLab](#launch-jupyterlab)
+- [Launch Classic Jupyter Notebook](#launch-classic-jupyter-notebook)
+- [Verify the Jupyter Python Kernel](#verify-the-jupyter-python-kernel)
+- [Stop Jupyter](#stop-jupyter)
+
+# Daily Workflow
+
+- [Normal Python Development](#normal-python-development)
+- [Conda Development](#conda-development)
+- [Start JupyterLab](#start-jupyterlab)
+- [Start Jupyter Notebook](#start-jupyter-notebook)
+- [Leave Conda](#leave-conda)
+
+# Verification
+
+- [Verification Checklist](#verification-checklist)
+
+# Reference
+
+- [Useful Conda Commands](#useful-conda-commands)
+
+# Troubleshooting
+
+- [Issue 1 - Conda SSL Certificate Error](#issue-1---conda-ssl-certificate-error)
+- [Issue 2 - Conda Permission Error](#issue-2---conda-permission-error)
+- [Issue 3 - Wrong Python Version Appears](#issue-3---wrong-python-version-appears)
+- [Issue 4 - Jupyter Command Not Found](#issue-4---jupyter-command-not-found)
+
+# Final Information
+
+- [Final Environment Layout](#final-environment-layout)
+- [Setup Complete](#-setup-complete)
 
 ---
 
@@ -378,20 +421,6 @@ Expected:
 ```text
 <your-user> staff
 ```
-
----
-
-# Continue Setup
-
-Continue with:
-
-- Installing JupyterLab
-- Installing Jupyter Notebook
-- Registering kernels
-- Verification
-- Troubleshooting
-
-# Continue Setup
 
 ---
 
