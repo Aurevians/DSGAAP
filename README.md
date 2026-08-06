@@ -7,7 +7,7 @@ ML
 RAG
 
 
-# Steps to open Jupyter:
+## Steps to open Jupyter:
 
 ### For Jupyter Notebook
 conda activate py313
