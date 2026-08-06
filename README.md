@@ -9,14 +9,14 @@ RAG
 
 ## Steps to open Jupyter:
 
-# For Jupyter Notebook
+### For Jupyter Notebook
 conda activate py313
 jupyter notebook
 Control + C
 conda deactivate
 
 
-# For Jupyter Lab
+### For Jupyter Lab
 conda activate py313
 jupyter lab
 Control + C
